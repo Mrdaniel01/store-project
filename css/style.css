@@ -156,12 +156,58 @@ body {
   margin: 0 auto;
   position: relative;
   top: -100px;
-  padding: 20px;
+  padding: 40px;
 }
 
 .galery__item {
-  width: auto;
+  width: 900px;
   height: 120px;
   border: 1px solid black;
   margin: 10px auto;
+}
+
+.galery__item-board{
+  display: flex;
+  background-image: url("/imgs/parts/board.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  
+  /* background-color: #303841; */
+}
+
+.galery__item-gpu {
+  display: flex;
+  background-image: url("/imgs/parts/gpu.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.galery__item-case {
+  display: flex;
+  background-image: url("/imgs/parts/case.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.galery__item-cooler {
+  display: flex;
+  background-image: url("/imgs/parts/powersupply.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
 }
