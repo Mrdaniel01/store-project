@@ -134,11 +134,8 @@ body {
 }
 
 .hero__img, .pc1 {
-  background-image: url("imgs/pcs/pc1 (1).webp");
   background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;  
+  width: 1200px;  
 }
 
 
@@ -159,6 +156,29 @@ body {
   padding: 40px;
 }
 
+.galery h2 {
+  text-transform: uppercase;
+  color: var(--secon-dark);
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.galery__container {
+  display:flex;
+  border-top: 1px solid var(--secon-main);
+  justify-content: center;
+}
+
+.galery__container img{
+  padding: 10px;
+  transition: .5s;
+}
+
+.galery__container img:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+}
+
 .galery__item {
   width: 900px;
   height: 120px;
@@ -168,20 +188,18 @@ body {
 
 .galery__item-board{
   display: flex;
-  background-image: url("https://static.gigabyte.com/Product/2/7249/2020043017292972629c53754fd600e173884f0c287d18f6_mm.png");
+  background-image: url("");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
   height: 200px;
   width: 200px;
   margin: 10px;
-  
-  /* background-color: #303841; */
 }
 
 .galery__item-gpu {
   display: flex;
-  background-image: url("https://static.gigabyte.com/Product/3/7017/2019072515314279487ade0b9a0288b1a31e377c7cb3e5db_m.png");
+  background-image: url("");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -192,7 +210,7 @@ body {
 
 .galery__item-case {
   display: flex;
-  background-image: url("https://static.gigabyte.com/Product/9/6103/20161122155042_m.png");
+  background-image: url("");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -203,11 +221,29 @@ body {
 
 .galery__item-cooler {
   display: flex;
-  background-image: url("https://static.gigabyte.com/Product/41/6691/2018082219594552_m.png");
+  background-image: url("");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
   height: 200px;
   width: 200px;
   margin: 10px;
+}
+
+
+/*_____________FOOTER */
+
+.footer {
+  height: 60px;
+  width: 100%;
+  background-color: var(--main-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a{
+  color: var(--clear);
+  margin: 10px 30px;
+  text-decoration: none;
 }
