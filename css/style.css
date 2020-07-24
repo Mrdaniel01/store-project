@@ -168,7 +168,7 @@ body {
 
 .galery__item-board{
   display: flex;
-  background-image: url("imgs/parts/board.png");
+  background-image: url("https://static.gigabyte.com/Product/2/7249/2020043017292972629c53754fd600e173884f0c287d18f6_mm.png");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -181,7 +181,7 @@ body {
 
 .galery__item-gpu {
   display: flex;
-  background-image: url("imgs/parts/gpu.png");
+  background-image: url("https://static.gigabyte.com/Product/3/7017/2019072515314279487ade0b9a0288b1a31e377c7cb3e5db_m.png");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -192,7 +192,7 @@ body {
 
 .galery__item-case {
   display: flex;
-  background-image: url("imgs/parts/case.png");
+  background-image: url("https://static.gigabyte.com/Product/9/6103/20161122155042_m.png");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -203,7 +203,7 @@ body {
 
 .galery__item-cooler {
   display: flex;
-  background-image: url("imgs/parts/powersupply.png");
+  background-image: url("https://static.gigabyte.com/Product/41/6691/2018082219594552_m.png");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
