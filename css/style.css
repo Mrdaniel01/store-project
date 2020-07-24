@@ -446,3 +446,114 @@ body {
   text-transform: uppercase;
   color: var(--clear);
 }
+
+
+/*______________MODAL CONTAINER*/
+
+.modal__container{
+  width: 900px;
+  height: auto;
+  display: flex;
+  background-color : var(--clear);
+  margin: 0 auto;
+  position: relative;
+  top: -100px;
+  padding: 40px;
+}
+
+.modal__main--photo{
+  width: 50%;
+}
+.modal__main--detail {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modal__main--photo img{
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.modal__detail-right{
+  list-style: none;
+}
+.modal__detail--header ul{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--secon-main);
+}
+
+.detail__button {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  background-color: var(--main-dark);
+  padding: 10px;
+  border-radius: 0 0 20px 20px;
+}
+.detail__button img{
+  width: 25px;
+  margin: 0 5px;
+}
+.detail__button img:hover{
+  transform: scale(1.2);
+}
+
+.modal__detail--header{
+  height: auto;
+  padding: 20px;
+  text-transform: uppercase;
+  /* border: 1px solid red; */
+}
+.modal__detail--header h2{
+  font-size: 2em;
+}
+
+.modal__detail--description {
+  /* border: 1px solid red; */
+  height: auto;
+  padding: 20px;
+}
+.modal__detail--price{
+  height:auto;
+}
+.modal__detail--price ul{
+  /* border: 1px solid red; */
+  list-style: none;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.modal__detail--pricetotal,
+.modal__detail--pricevalue{
+  font-size: 1.5em;
+  color: var(--secon-dark);
+}
+.form__pay{
+  display: flex;
+  justify-content: flex-end;
+}
+.button__pay {
+  display: flex;
+  justify-content: center;
+  width:40%;
+  padding: 10px;
+  margin: 40px 15px 0 0;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+  color: var(--clear);
+  background-color: var(--secon-dark);
+}
+
+.button__pay:hover{
+  box-shadow: var(--shadow);
+}
