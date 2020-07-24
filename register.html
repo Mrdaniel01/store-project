@@ -6,7 +6,7 @@
   <link rel="icon" href="https://image.flaticon.com/icons/svg/911/911412.svg">
 	<link rel="stylesheet" href="css/style.css">
 
-  <title>Login</title>
+  <title>Register</title>
 </head>
 <body>
 
@@ -27,19 +27,20 @@
 		</ul>
     </div>
   </header>
-
-  <h2 class="login__title">Log In</h2>
-
-<div class="login__container">
-  <form  class="login__container--form" action="">
-    <label class="login__user--label label" for="user"><p>User name</p></label>
+<h2 class="register__title">sign up</h2>
+<div class="register__container">
+  <form  class="register__container--form" action="">
+    <label class="register__user--label label" for="user"><p>User name</p></label>
     <input class="login__user input" type="text" name="user">
+    <label class="register__user--label label" for="email"><p>E-mail</p></label>
+    <input class="login__user input" type="text" name="email">
     
-    <label class="login__pass label"for="pass"><p>Password</p></label>
-    <input class="login__pass input" type="password" name="pass">
-    <button class="login__button">Log in</button>
-    <p class="login__register--link">I don't have an acount, <a href="register.html">Register</a>  </p>
-    <p class="login__register--forgot">I forgot my password, <a href="register.html">Help me</a>  </p>
+    <label class="register__pass label"for="pass"><p>Password</p></label>
+    <input class="register__pass input" type="password" name="pass">
+    <label class="register__pass label"for="repass"><p>Repeat Password</p></label>
+    <input class="register__pass input" type="password" name="repass">
+    <button class="register__button">Sign up</button>
+    <p class="register__register--link">I have an acount, <a href="log-in.html">Log in</a>  </p>
 
   </form>
 
