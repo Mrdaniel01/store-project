@@ -21,7 +21,7 @@
 
 		<ul class="header__button">
 			<a class="header__button--fav" href="#favoritos"><img src="imgs/028-favourite.svg" alt="heart"></a>
-			<a class="header__button--cart" href="#carrito de compra"><img src="imgs/044-shopping cart.svg" alt="cart"></a>
+			<a class="header__button--cart" id="cartOpenButton"><img src="imgs/044-shopping cart.svg" alt="cart"></a>
 			<a class="header__button--profile" href="log-in.html">	<img src="imgs/036-customer.svg" alt="photo"></a>
 		</ul>
 		</div>
@@ -62,8 +62,7 @@
 			<option value="">+600W</option>
 			<option value="">+1000W</option>
 		</select>
-
-	 </nav>
+	</nav>
 	 	<!-- SALES COMPLETE PC -->
 	<div class="hero__container">
 		<img class="hero__img pc1" src="imgs/pcs/pc1 (1).webp" alt="">	
@@ -110,6 +109,54 @@
 			<a href="footer__politics">Politics</a>
 		</span>
 	</footer>
+	<!-- OVERLAY -->
+	<div class="overlay" id="overlay"></div>
 
- </body>
- </html>
+	<!-- MODAL -->
+
+	<div  class="cart__container" id="cart">
+		<ul class="cart__header">
+			<h2 class="cart__title">My Cart</h2>
+			<span class="cart__close" id="closeCart">x</span>
+		</ul>
+		
+		<ul class="cart__list">
+
+			<li class="cart__item">
+				<img class="cart__item--img" src="imgs/parts/case.png" alt="">
+				<ul class="cart__item--detail">
+					<h3>Case ATX</h3>
+					<p>Quantity: 1</p>
+				</ul>
+				<p class="cart__item--detail">$50.00</p>
+			</li>
+			<li class="cart__item">
+				<img class="cart__item--img" src="imgs/parts/case.png" alt="">
+				<ul class="cart__item--detail">
+					<h3>Case ATX</h3>
+					<p>Quantity: 1</p>
+				</ul>
+				<p class="cart__item--detail">$50.00</p>
+			</li>
+			<li class="cart__item">
+				<img class="cart__item--img" src="imgs/parts/case.png" alt="">
+				<ul class="cart__item--detail">
+					<h3>Case ATX</h3>
+					<p>Quantity: 1</p>
+				</ul>
+				<p class="cart__item--detail">$50.00</p>
+			</li>
+				
+			<ul class="cart__price">
+				<p class="cart__price--label">Total</p>
+				<p class="cart__price--number">$150.00</p>
+			</ul>
+			<form class="button__pay--form" action="">
+				<button class="button__pay" >Pay</button>
+			</form>
+			
+		</ul>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>
