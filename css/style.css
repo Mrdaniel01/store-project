@@ -655,3 +655,22 @@ body {
   transition: .1s;
   visibility: hidden;
 }
+
+
+::-webkit-scrollbar {
+  background-color: var(--main-dark);
+  width: 10px;
+  padding: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #f6c80ece;
+  opacity: 0;
+  border-radius: 5px ;
+  border: 3px solid var(--main-dark);
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active{
+  background-color: var(--secon-main);
+}
