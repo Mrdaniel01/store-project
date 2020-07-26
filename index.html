@@ -28,40 +28,86 @@
 		
 
 	 </header>
-	 		<!-- NAVEGADOR -->
+			 <!-- NAVEGADOR -->
+			 
+	
 	 <nav class="filter__nav">
-		<select class="filter__cpu" name="cpu" id="">
-			<option value="">CPU</option>
-			<option value="">AMD</option>
-			<option value="">Intel</option>
-		</select>
+		<ul>
+			<li>
+				<label class="filter__nav--category" for="">Cpu</label>
+			</li>
+			<li >
+				<label for="Intel">Intel
+					<input type="checkbox" name="intel" id="">
+				</label>
+				<label for="amd">AMD
+					<input type="checkbox" name="amd" id="">
+				</label>
+			</li>
+		</ul>
+
+		 
+		<ul>	
+			<li>
+				<label class="filter__nav--category" for="">Boards</label>
+			</li>
+			<li>
+				<label for="asus">ASUS
+					<input type="checkbox" name="asus" id="">
+				</label>
+				<label for="msi">MSI
+					<input type="checkbox" name="amd" id="">
+				</label>
+				<label for="aorus">Aorus
+					<input type="checkbox" name="aorus" id="">
+				</label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<label class="filter__nav--category" for="">GPUs</label>
+			</li>
+			<li>
+				<label for="nvidia">Nvidia
+					<input type="checkbox" name="nvidia" id="">
+				</label>
+				<label for="amd-gpu">AMD
+					<input type="checkbox" name="amd-gpu" id="">
+				</label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<label class="filter__nav--category" for="">Memory</label>
+			</li>
+			<li>
+				<label for="ddr3">DDR3
+					<input type="checkbox" name="ddr3" id="">
+				</label>
+				<label for="ddr4">DDR4
+					<input type="checkbox" name="ddr4" id="">
+				</label>
+			</li>
+		</ul>
 		
-		<select class="filter__board" name="board" id="">
-			<option value="">Mother Board</option>
-			<option value="">Asus</option>
-			<option value="">MSI</option>
-			<option value="">Zotac</option>
-			<option value="">Aorus</option>
-		</select>
-
-		<select class="filter__gpu" name="grafica" id="">
-			<option value="">GPU</option>
-			<option value="">AMD</option>
-			<option value="">Nvidia</option>
-		</select>
-
-		<select class="filter__memory" name="memoria" id="">
-			<option value="">Memory</option>
-			<option value="">DDR3</option>
-			<option value="">DDR4</option>
-		</select>
-
-		<select class="filter__ps" name="fuente" id="">
-			<option value="">Power Supply</option>
-			<option value="">+450W</option>
-			<option value="">+600W</option>
-			<option value="">+1000W</option>
-		</select>
+		<ul>
+			<li>
+				<label class="filter__nav--category" for="">Power Supply</label>
+			</li>
+			<li>
+				<label for="450w">450w
+					<input type="checkbox" name="450w" id="">
+				</label>
+				<label for="600w">600w
+					<input type="checkbox" name="600w" id="">
+				</label>
+				<label for="1000w">1000w
+					<input type="checkbox" name="1000w" id="">
+				</label>
+			</li>
+		</ul>
 	</nav>
 	 	<!-- SALES COMPLETE PC -->
 	<div class="hero__container">

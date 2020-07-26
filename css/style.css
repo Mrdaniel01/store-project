@@ -91,6 +91,7 @@ body {
   padding: 15px;
   margin: 0 auto;
   text-align: center;
+  cursor: pointer;
 }
 .header__button img {
   width: 25px;
@@ -101,7 +102,7 @@ body {
 }
 
 .header__button img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /*_____________________ FILTERS*/
@@ -111,25 +112,33 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  color: var(--secon-main);
+  
 }
-
-.filter__nav select{
-  margin: 0 10px 20px 10px;
-  background-color: var(--clear);
-  border: none;
-  width: 150px;
-  padding:3px 5px;
-  border-radius: 0  0 10px 10px;
-}
-
-.filter__nav select:hover{
-  background-color: var(--main-dark);
+.filter__nav--category {
   color: var(--clear);
   font-weight: 600;
+  
 }
 
-.filter__nav select:focus {
-  outline: 2px solid var(--secon-main);
+
+.filter__nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding:  5px 20px;
+  border-left: 1px solid var(--secon-main);
+}
+
+.filter__nav ul:hover{
+  background-color: var(--main-dark);
+
+}
+.filter__nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0 10px;
 }
 
 /*______________ HERO CONTAINER*/
@@ -574,6 +583,7 @@ body {
   right: 100px;
   z-index: 10;
   visibility: hidden;
+  animation: .5s;
 }
 
 .cart__title {
@@ -595,6 +605,7 @@ body {
   color: var(--clear);
   border-radius: 0 0 20px 20px;
   background-color: var(--secon-dark);
+  cursor: pointer;
 }
 
 .cart__item{
